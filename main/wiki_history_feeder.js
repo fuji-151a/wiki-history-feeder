@@ -50,7 +50,7 @@ w.listen(function(change) {
  */
 function send(msg) {
     producer.send([
-      {topic: topic, messages: [msg] }
+      {topic: topic, messages: [msg], attributes:1 }
     ], function (err, data) {
         if (err) {
             console.log(err);
