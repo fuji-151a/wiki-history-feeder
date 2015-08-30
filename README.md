@@ -2,7 +2,7 @@
 Wikipediaの編集履歴をKafkaにProduceするためのFeeder.
 
 ### 使用ツール
-- node.js
+- node.js(v0.12.7で動作確認)
 - [kafka-node](https://github.com/SOHU-Co/kafka-node)
 - [wikichanges](https://github.com/edsu/wikichanges)
 - opts
